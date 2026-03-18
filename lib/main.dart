@@ -43,7 +43,7 @@ class _FidelPageState extends State<FidelPage> {
     ['ኘ', 'ኙ', 'ኚ', 'ኛ', 'ኜ', 'ኝ', 'ኞ'], ['አ', 'ኡ', 'ኢ', 'ኣ', 'ኤ', 'እ', 'ኦ'],
     ['ከ', 'ኩ', 'ኪ', 'ካ', 'ኬ', 'ክ', 'ኮ'], ['ኸ', 'ኹ', 'ኺ', 'ኻ', 'ኼ', 'ኽ', 'ኾ'],
     ['ወ', 'ዉ', 'ዊ', 'ዋ', 'ዌ', 'ው', 'ዎ'], ['ዐ', 'ዑ', 'ዒ', 'ዓ', 'ዔ', 'ዕ', 'ዖ'],
-    ['ዘ', 'ዙ', 'ዚ', 'ዛ', 'ዜ', 'ዝ', 'ዞ'], ['ዠ', 'ዙ', 'ዢ', 'ዣ', 'ዤ', 'ዥ', 'ዦ'],
+    ['ዘ', 'ዙ', 'ዚ', 'ዛ', 'ዜ', 'ዝ', 'ዞ'], ['ዠ', 'ዡ', 'ዢ', 'ዣ', 'ዤ', 'ዥ', 'ዦ'],
     ['የ', 'ዩ', 'ዪ', 'ያ', 'ዬ', 'ይ', 'ዮ'], ['ደ', 'ዱ', 'ዲ', 'ዳ', 'ዴ', 'ድ', 'ዶ'],
     ['ጀ', 'ጁ', 'ጂ', 'ጃ', 'ጄ', 'ጅ', 'ጆ'], ['ገ', 'ጉ', 'ጊ', 'ጋ', 'ጌ', 'ግ', 'ጎ'],
     ['ጠ', 'ጡ', 'ጢ', 'ጣ', 'ጤ', 'ጥ', 'ጦ'], ['ጨ', 'ጩ', 'ጪ', 'ጫ', 'ጬ', 'ጭ', 'ጮ'],
@@ -180,8 +180,8 @@ class _FidelPageState extends State<FidelPage> {
           text: TextSpan(
             style: TextStyle(fontSize: fontSize, fontWeight: FontWeight.w900, letterSpacing: 1.2),
             children: [
-              TextSpan(text: 'እግዚአብሔር ', style: TextStyle(color: Colors.green.shade700)),
-              TextSpan(text: 'ይስጥልኝ ', style: const TextStyle(color: Color(0xFFFFD700))), 
+              TextSpan(text: 'እግዚአብሔር     ', style: TextStyle(color: Colors.green.shade700)),
+              TextSpan(text: 'ይስጥልኝ     ', style: const TextStyle(color: Color(0xFFFFD700))), 
               TextSpan(text: 'አናመሰግናለን 😊', style: TextStyle(color: Colors.red.shade900)),
             ],
           ),
